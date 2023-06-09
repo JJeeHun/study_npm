@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #test:checked + div{
+            display: block;
+            background-color: tomato;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="test"> 홍길동 </label>
+    <input class="hide" type="checkbox" name="" id="test">
+    <div class="hide">container</div>
+</body>
+</html>
